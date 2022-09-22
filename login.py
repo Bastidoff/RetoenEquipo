@@ -8,7 +8,7 @@ def login():
         intentos += 1
         user = input("Ingrese usuario: ")
         password = input("Ingrese contraseña: ")
-        if(user == 'admim' and password == 'admin123'):
+        if(user == 'admin' and password == 'admin123'):
             admin = True
         else: 
             print('Usuario o contraseña no valida')
